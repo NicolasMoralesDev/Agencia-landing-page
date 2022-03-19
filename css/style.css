@@ -16,6 +16,7 @@ a {
 
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
 
 .container  {
@@ -110,7 +111,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     margin-top:20px;
-    width: 11rem;
+    width: 12rem;
     height: 8rem;
     font-size: 2rem;
     color: white;
