@@ -9,14 +9,15 @@ html {
   font-size: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-body {
+body{
   overflow-x: hidden;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);        
+}
+
 
 .container  {
   position: fixed;
@@ -85,15 +86,33 @@ body {
     }
 
 .section-1{
-    background-color: azure;
-    color: black;
-    height: 40rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 30rem;
     width: 100vw;
   }
+  
+  .container-section-1 {
+
+    margin:  auto;
+    padding: 12px 12px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    font-size: 2rem;
+  }
+
+  .container-section-1 > p {
+      margin-right:30px; 
+  }
+
 
   footer {
     background-color: rgb(0, 0, 0);
-    width: 100%;
+    width: 100vw;
     height: 20rem;
   }
 
@@ -110,44 +129,17 @@ body {
     display: flex;
     flex-flow: column wrap;
     margin-top:20px;
-    width: 14rem;
+    width: 15rem;
     height: 8rem;
     font-size: 2rem;
     color: white;
   }
   
-  footer i {
+  i {
+    color: rgb(248, 247, 247);
     height: 10px;
   }
-
-  .footer-container-2{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: wrap;
-    padding-bottom: 20px;
-  }
-
-  .mapa-mensaje{
-    width: 50%;
-    display: flex;
-    flex-flow:column wrap;
-    height: 13rem;
-    padding: 30px ;
-    font-size: 2rem;
-    color: white;
-  }
   
-  iframe{
-    width: 30%;
-    display: flex;
-    flex-flow:column wrap;
-    height: 13rem;
-    font-size: 2rem;
-    color: white;
-  }
-
   #pie{
    display: flex;
    justify-content: center;
@@ -155,6 +147,10 @@ body {
    padding: 2rem;
    color: azure;
 }
+
+ #pie i {
+   padding-right: 10px;
+ }
   
 @media screen and (max-width: 1100px){
 
