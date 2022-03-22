@@ -60,6 +60,7 @@ a {
   background-image: url("https://tripin.travel/wp-content/uploads/2016/07/Purmamarca_PAG6175-Foto-Hernan-Paganini-copia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
     #carousel-text {
@@ -91,9 +92,19 @@ a {
     height: 30rem;
     width: 100vw;
   }
-  
-  .container-section-1 {
 
+  .section-1 > h2 {
+    display: flex;
+    padding: 12px;
+    font-size: 2rem;
+    justify-content: center;
+  }
+
+  .container-section-1 > p {
+      margin-right:30px; 
+  }
+
+  .container-section-1 {
     margin:  auto;
     padding: 12px 12px ;
     display: flex;
@@ -105,10 +116,41 @@ a {
     font-size: 2rem;
   }
 
-  .container-section-1 > p {
-      margin-right:30px; 
+  .section-form{
+    color: rgb(255, 255, 255);
+    background-image: url("../img/Hornocal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+    margin-bottom: 0;
   }
 
+  .container-items{
+    display: flex;
+    flex-flow: wrap row;
+    background-color: rgba(0, 0, 0,0.5);
+    justify-content: end;
+  }
+
+  .container-form{
+    width: 20%;
+    height: 30rem;
+  }
+
+  form {
+    margin: 15px ;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding-bottom: 5px;
+  }
+
+  input , textarea{
+    border-radius: 5px;
+  }
 
   footer {
     background-color: rgb(0, 0, 0);
@@ -129,7 +171,7 @@ a {
     display: flex;
     flex-flow: column wrap;
     margin-top:20px;
-    width: 15rem;
+    width: 19rem;
     height: 8rem;
     font-size: 2rem;
     color: white;
@@ -138,6 +180,7 @@ a {
   i {
     color: rgb(248, 247, 247);
     height: 10px;
+    padding-right:5px;
   }
   
   #pie{
