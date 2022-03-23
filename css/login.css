@@ -76,7 +76,7 @@ input:active{
         background-size: contain;
     }
 
-    h2 {
+   .form  h2 {
         font-size: 1rem;
     }
   } 
