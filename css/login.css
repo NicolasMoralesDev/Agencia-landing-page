@@ -63,8 +63,16 @@ form button {
 input , button {
     padding: 5px;
     margin: 5px;
+    border: none;
 }
 
-input , button{
-    border: rgb(173, 216, 230);
+input:active{
+    outline:  rgb(173, 216, 230);
 }
+
+@media screen and (max-width: 1100px){
+      
+    body{
+      background-size: auto;
+    }
+  } 
