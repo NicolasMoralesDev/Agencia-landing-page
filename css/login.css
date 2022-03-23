@@ -73,6 +73,10 @@ input:active{
 @media screen and (max-width: 1100px){
       
     body{
-        background-size: auto;
+        background-size: contain;
+    }
+
+    h2 {
+        font-size: 1rem;
     }
   } 
