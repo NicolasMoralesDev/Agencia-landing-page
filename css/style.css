@@ -129,7 +129,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
-    height: 40rem;
+    height: 50rem;
   }
 
   .section-form > h2 {
@@ -143,15 +143,17 @@ a {
     flex-flow: wrap row ;
     justify-content: end;
     margin: 20px ;
+    height: 40rem;
     background-color: rgba(0, 0, 0,0.5);
   }
 
   .container-form{
     width: 20%;
-    height: 28rem;
+    height: 38rem;
     display: flex;
     flex-flow: wrap row;
     background-color: rgba(0, 0, 0,0.5);
+    margin: 10px ;
   }
 
   form {
@@ -169,15 +171,24 @@ a {
     border-radius: 5px;
     outline: none;
     border: none;
-  }
-
-  input , textarea:hover{
-    
+    padding: 1px;
   }
 
   button {
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
+  }
+
+  input , textarea::placeholder{
+    padding: 12px 12px;
+  }
+
+  input:hover , textarea:hover{
+    border: 2px solid rgb(173, 216, 230);
+  }
+
+  button:hover{
+    cursor: pointer;
   }
 
   /* Footer */
