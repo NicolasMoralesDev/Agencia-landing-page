@@ -29,6 +29,7 @@ body{
 }
 
 .links{
+    margin-top: 12px;
     display: flex;
     font-size: 1.5rem;
     flex-flow: wrap;
