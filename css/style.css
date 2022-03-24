@@ -301,7 +301,7 @@ footer {
    }
 
    .container-form{
-    flex-direction: column;
+    flex-direction: row;
     width: 75%;
     justify-content: center;
    }
@@ -316,7 +316,7 @@ footer {
 
    footer ul{
     margin: 10%;
-    width: 20rem;
+    width: 25rem;
    }
 
    .icon-whatsapp{
