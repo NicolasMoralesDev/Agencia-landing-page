@@ -302,7 +302,7 @@ footer {
 
    .container-form{
     flex-direction: column;
-    width: 70%;
+    width: 75%;
     justify-content: center;
    }
    
@@ -311,7 +311,7 @@ footer {
    }
 
    footer {
-    height: 55rem;
+    height: 60rem;
    }
 
    footer ul{
