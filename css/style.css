@@ -114,7 +114,11 @@ a {
     height: 20rem;
     font-size: 2rem;
   }
-  
+
+  .container-section-1 li {
+    margin: 13px;
+  }
+
   iframe {
    margin: 2rem;
   }
@@ -127,7 +131,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
-    height: 50rem;
+    height: 52rem;
   }
 
   .section-form > h2 {
@@ -141,17 +145,19 @@ a {
     flex-flow: wrap row ;
     justify-content: end;
     margin: 20px ;
-    height: 40rem;
+    height: 43rem;
+    width: 97%;
     background-color: rgba(0, 0, 0,0.5);
   }
 
   .container-form{
-    width: 20%;
-    height: 38rem;
+    width: 25%;
+    height: 40rem;
     display: flex;
     flex-flow: wrap row;
+    justify-content: center;
     background-color: rgba(0, 0, 0,0.5);
-    margin: 10px ;
+    margin: 10px;
   }
 
   form {
@@ -173,16 +179,18 @@ a {
   }
 
   button {
+    font-size: 2rem;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
+    height: 3rem;
   }
 
   input , textarea::placeholder{
     padding: 12px 12px;
   }
 
-  input:hover , textarea:hover{
-    border: 2px solid rgb(173, 216, 230);
+  input:focus , textarea:focus{
+    outline: 2px solid rgb(173, 216, 230);
   }
 
   button:hover{
@@ -210,7 +218,7 @@ footer {
     display: flex;
     flex-flow: column wrap;
     margin-top:20px;
-    width: 20rem;
+    width: 25rem;
     height: 8rem;
     font-size: 2rem;
     color: white;
@@ -218,12 +226,6 @@ footer {
 
   .footer-col li{
     padding: 5px;
-  }
-  
-  i {
-    color: rgb(248, 247, 247);
-    height: 10px;
-    padding-right:5px;
   }
   
   #pie {
@@ -234,14 +236,21 @@ footer {
    color: azure;
 }
 
+ i { 
+   color: rgb(248, 247, 247);
+   height: 10px;
+   padding-right: 35px;
+   width: 12px;
+ }
+
  #pie i {
-   padding-right: 15px;
+  padding-right: 15px;
  }
 
 .icon-whatsapp {
   position: fixed;
   width: 10rem;
-  right: 10%;
+  right: 9%;
   top: 70%;
 }
   
@@ -283,17 +292,17 @@ footer {
    .section-form {
     height: 50rem;
     justify-content: center;
-
    }
    
    .container-items {
+    width: 90%;
     flex-direction: column;
     align-items: center;
    }
 
    .container-form{
     flex-direction: column;
-    width: 30rem;
+    width: 70%;
     justify-content: center;
    }
    
@@ -302,7 +311,7 @@ footer {
    }
 
    footer {
-    height: 50rem;
+    height: 55rem;
    }
 
    footer ul{
