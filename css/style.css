@@ -127,9 +127,10 @@ a {
 
   .section-form{
     color: rgb(255, 255, 255);
-    background-image: url("../img/Hornocal.jpeg");
+    background-image: url("../img/DWtrH71WkAAO3c1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100% 70%;
     margin-bottom: 0;
     height: 52rem;
   }
