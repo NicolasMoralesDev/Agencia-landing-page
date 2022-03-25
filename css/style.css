@@ -345,9 +345,10 @@ footer {
     height: auto;
     width: auto;
    }
-
+  
    .container-item-nosotros{
-     height: auto;
+    height: auto;
+    width: auto;
    }
 
    .container-item-nosotros img {
@@ -355,8 +356,8 @@ footer {
    }
 
    .section-1{
-    height: 50rem;
-    padding: 12px;
+    height: auto;
+    padding: auto;
    }
 
    .container-section-1{
@@ -371,6 +372,7 @@ footer {
    }
 
    /*Formulario */
+
    .section-form {
     height: 70rem;
     justify-content: center;
