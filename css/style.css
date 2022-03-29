@@ -257,7 +257,7 @@ a {
   #video{
     display: flex;
     flex-flow: column wrap;
-    width:50% ;
+    width:40% ;
   }
 
   /* Footer */
@@ -353,8 +353,7 @@ footer {
    }
 
    .container-item-nosotros img {
-    width: auto;
-    height: 30%;
+    height: auto;
    }
 
    .section-1{
