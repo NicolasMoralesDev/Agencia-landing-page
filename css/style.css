@@ -136,7 +136,7 @@ a {
  
   .section-nosotros img{
     width: 30%;
-    height: 20rem;
+    height: auto;
     margin: 20px;
     display: flex;
     flex-flow: column wrap;
@@ -176,7 +176,7 @@ a {
   iframe {
    margin: 2rem;
    width: 30%;
-   height: 90%;
+   height: auto;
   }
 
   /*Formulario*/
@@ -354,6 +354,7 @@ footer {
 
    .container-item-nosotros img {
     width: auto;
+    height: 30%;
    }
 
    .section-1{
