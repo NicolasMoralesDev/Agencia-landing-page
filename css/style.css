@@ -327,10 +327,14 @@ footer {
     flex-wrap: wrap;
   }*/
 
+  html {
+    width: auto;
+  }
    body{
     overflow-x: hidden;
-    width: 100vw;
+    width: auto;
    }
+
   
    h2 , p{
     font-size: 1.5rem;
@@ -375,7 +379,7 @@ footer {
    /*Formulario */
 
    .section-form {
-    height: 70rem;
+    height: auto;
     justify-content: center;
    }
    
