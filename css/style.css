@@ -317,8 +317,10 @@ footer {
   top: 70%;
 }
 
+/* media Query */
 
 @media screen and (max-width: 1100px){
+
 
  *{
    overflow-x:hidden;
@@ -333,6 +335,8 @@ footer {
   }
 
   */
+
+  /* fuentes */
  
    h2 , p {
     font-size: 2rem;
@@ -415,19 +419,19 @@ footer {
    }
 
    .footer-col{
-     height: auto;
+    height: auto;
    }
 
-   i {
-     height: 20px;
+   i{
+    height: 20px;
    }
-   
+
    /*icono */
 
    .icon-whatsapp{
-     left: 60%;
-     bottom: 10%;
-     top:70%;
+    left: 60%;
+    bottom: 10%;
+    top:70%;
    }
 
 } 
