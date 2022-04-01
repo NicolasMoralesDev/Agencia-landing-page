@@ -1,89 +1,86 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-body{
-    background-image: url(../img/parati-news-jujuy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(../img/parati-news-jujuy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.form{
-    font-size: 2rem;
-    margin: 100px  auto;
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    width: 25rem;
-    height: 30rem;
-    background-color: rgba(0, 0, 0,0.5);
-    border-radius: 15px;
-    padding: 2rem;
+.form {
+  font-size: 2rem;
+  margin: 100px auto;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 25rem;
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 2rem;
 }
 
-.links{
-    margin-top: 12px;
-    display: flex;
-    font-size: 1.5rem;
-    flex-flow: wrap;
-    justify-content: center;
+.links {
+  margin-top: 12px;
+  display: flex;
+  font-size: 1.5rem;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 .links a {
-    font-size: none;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
-    padding: 5px;
+  font-size: none;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  padding: 5px;
 }
 
 form {
-    margin: 2rem;
-    display: flex;
-    flex-flow: column wrap;
-    width: 20rem;
-    height: 20rem;
+  margin: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  width: 20rem;
+  height: 20rem;
 }
 
 form h2 {
-    margin: 15px;
+  margin: 15px;
 }
 
 form button {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
-    cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
 }
 
-input , button {
-    padding: 5px;
-    margin: 5px;
-    border: none;
+input,
+button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
 }
 
-input:active{
-    outline:  rgb(173, 216, 230);
+input:active {
+  outline: rgb(173, 216, 230);
 }
 
-@media screen and (max-width: 1000px){
-      
-    body{
-        background-size: auto ;
-        background-position:  30% 20%;
-    }
+@media screen and (max-width: 1000px) {
+  body {
+    background-size: auto;
+    background-position: 30% 20%;
+  }
 
-   .form{
-        font-size:1.5rem;
-        justify-content: center;
-        align-items: center;
-    }
-  } 
-
-
-  
+  .form {
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
